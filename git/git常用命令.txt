@@ -1,0 +1,8 @@
+日志
+
+git log 查看提交历史
+git reflog 查看命令历史
+
+版本回退
+
+git reset --hard commit_id
