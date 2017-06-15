@@ -1,8 +1,33 @@
 日志
-
-git log 查看提交历史
+git log 查看提交历史,git log --graph --pretty=oneline --abbrev-commit和git log --graph可以看到分之合并图
 git reflog 查看命令历史
+git diff HEAD -- fileName 查看工作区文件与版本库的差异
+
+撤销修改
+git checkout -- file可以丢弃工作区的修改
+1.文件未add
+2.文件add后再次修改，checkout后回到刚刚add的状态
+
+撤销删除
+git chcekout file  rm误删除。该命令使用版本库里的文件版本替换工作区的版本
+
+1.git log
+2.git reset --hard "commit id"
+如果使用git rm 误删除，找到未删除之前的commit_id
+
+删除文件
+git rm  file
+git commit 
+
+git reset HEAD file 撤销暂存区的修改，文件回到工作区，即add后未提交
 
 版本回退
-
 git reset --hard commit_id
+
+分支管理
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
