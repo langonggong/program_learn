@@ -23,7 +23,7 @@ git reset HEAD file 撤销暂存区的修改，文件回到工作区，即add后
 
 版本回退
 git reset --hard commit_id
-
+se
 分支管理
 查看分支：git branch
 创建分支：git branch <name>
@@ -31,3 +31,15 @@ git reset --hard commit_id
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+从远程获取+切换分支:：git checkout -b <name> origin/<name>
+合并分支到当前分支（默认Fast forward方式，删除分支后，会丢掉分支信息）：git merge dev
+合并分支到当前分支（--no-ff参数，表示禁用Fast forward）：git merge --no-ff -m "merge with no-ff" dev
+指定本地dev分支与远程origin/dev分支的链接：git branch --set-upstream dev origin/dev
+
+commit管理
+修改最后一次commit的说明信息 git commit --amend
+修改某一次历史提交的commit信息：
+1.修改当前版本倒数第n次的状态 git rebase -i HEAD~3
+2.将需要修改的那个的pick改为edit
+3.对commit进行修改 git commit --amend
+4.改回来 git rebase --continue
