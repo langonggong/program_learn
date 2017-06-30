@@ -1,0 +1,39 @@
+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¼Í¨‚ûÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(†ñþµþÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(æÓðýÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(âÜÿÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(šÑ¯æ
+Msquid:S1197"8Move the array designator from the variable to the type.(šÑ¯æ
+Dsquid:S1068"/Remove this unused "inetAddress" private field.(õ÷®
+Csquid:S1068".Remove this unused "serverName" private field.(ÙÄ‰•
+Csquid:S1068".Remove this unused "serverPort" private field.(ƒöˆš
+Dsquid:S1068"*Remove this unused "socket" private field.(Å’¬Úþÿÿÿÿ
+Tsquid:S1068":Remove this unused "requestedSessionCookie" private field.(òÛë²þÿÿÿÿ
+Psquid:S1068"6Remove this unused "requestedSessionId" private field.(³ŒËøÿÿÿÿ
+Qsquid:S1068"7Remove this unused "requestedSessionURL" private field.(ðÝ©›þÿÿÿÿ
+osquid:S1450"ZRemove the "inetAddress" field and declare it as a local variable in the relevant methods.(õ÷®
+nsquid:S1450"YRemove the "serverName" field and declare it as a local variable in the relevant methods.(ÙÄ‰•
+nsquid:S1450"YRemove the "serverPort" field and declare it as a local variable in the relevant methods.(ƒöˆš
+osquid:S1450"URemove the "socket" field and declare it as a local variable in the relevant methods.(Å’¬Úþÿÿÿÿ
+squid:S1450"eRemove the "requestedSessionCookie" field and declare it as a local variable in the relevant methods.(òÛë²þÿÿÿÿ
+{squid:S1450"aRemove the "requestedSessionId" field and declare it as a local variable in the relevant methods.(³ŒËøÿÿÿÿ
+|squid:S1450"bRemove the "requestedSessionURL" field and declare it as a local variable in the relevant methods.(ðÝ©›þÿÿÿÿ
+_squid:HiddenFieldCheck"?Rename "queryString" which hides the field declared at line 42.(”ºáœ
+_squid:HiddenFieldCheck"?Rename "contentType" which hides the field declared at line 36.(¥÷‘
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ã§çØ
+[squid:CallToDeprecatedMethod"5Remove this use of "RequestStream"; it is deprecated.(Õ¢ÌÌ
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(úœÇ†øÿÿÿÿ
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(´Ñ¥[
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ññªù
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¦Êùÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê›¬
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÞÎåûÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ª–’Ä

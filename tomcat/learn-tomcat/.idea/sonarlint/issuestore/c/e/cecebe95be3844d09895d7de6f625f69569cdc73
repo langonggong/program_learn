@@ -1,0 +1,23 @@
+
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ßŒ±íùÿÿÿÿ
+_squid:HiddenFieldCheck":Rename "method" which hides the field declared at line 29.(é„—°ûÿÿÿÿ
+qsquid:S1450"WRemove the "response" field and declare it as a local variable in the relevant methods.(¤ÓµÉùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(àŒ’§üÿÿÿÿ
+Csquid:S1905".Remove this unnecessary cast to "HttpRequest".(à´ì
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestLine"; it is deprecated.(Ç²¢Ö
+Hsquid:S1905".Remove this unnecessary cast to "HttpRequest".(Èü…´øÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Î®ä­
+Hsquid:S1905".Remove this unnecessary cast to "HttpRequest".(™ö¶ãıÿÿÿÿ
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(„Ğ¬Ãøÿÿÿÿ
+_squid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(¨ãœ
+Isquid:S1066"/Merge this if statement with the enclosing one.(Øı’Ûøÿÿÿÿ
+Gsquid:S1172"-Remove this unused method parameter "output".(àŒ’§üÿÿÿÿ
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(ßŒ±íùÿÿÿÿ
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(àŒ’§üÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ãáá½ûÿÿÿÿ
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestLine"; it is deprecated.(Ç²¢Ö
+]squid:CallToDeprecatedMethod"2Remove this use of "HttpHeader"; it is deprecated.(ãáá½ûÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŞÎåûÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(ä¤ØÓ
+]squid:CallToDeprecatedMethod"2Remove this use of "HttpHeader"; it is deprecated.(ãáá½ûÿÿÿÿ

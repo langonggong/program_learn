@@ -1,0 +1,94 @@
+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+›%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‰¼÷É
+¦%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(‰¼÷É
+Msquid:S1197"8Move the array designator from the variable to the type.(ä¤ØÓ
+dsquid:S1192"ODefine a constant instead of duplicating this literal "process.invoke" 6 times.(º•æ
+Isquid:S1066"/Merge this if statement with the enclosing one.(Øı’Ûøÿÿÿÿ
+;squid:S1068"&Remove this unused "id" private field.(Ùï¨œ
+Hsquid:S1068".Remove this unused "SESSION_ID" private field.(¸ééŸøÿÿÿÿ
+=squid:S1068"(Remove this unused "CRLF" private field.(ã¡Õí
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¤æçô
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïÂÛÇ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Óáêèıÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷½Ìë
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜‹ôœüÿÿÿÿ
+[squid:HiddenFieldCheck";Rename "socket" which hides the field declared at line 178.(°ÕĞÇ
+bsquid:HiddenFieldCheck"=Rename "available" which hides the field declared at line 91.(€ù–¢øÿÿÿÿ
+`squid:HiddenFieldCheck";Rename "socket" which hides the field declared at line 178.(“Šá“ÿÿÿÿÿ
+Jsquid:S1133"5Do not forget to remove this deprecated code someday.(²€œ
+^squid:S1134"DTake the required action to fix the issue indicated by this comment.(Ù²§¤ÿÿÿÿÿ
+\squid:S1226"BIntroduce a new variable instead of reusing the parameter "value".(†À¶èüÿÿÿÿ
+Xsquid:S1226"CIntroduce a new variable instead of reusing the parameter "socket".(Œ±—–
+dsquid:S2674"JCheck the return value of the "skip" call to see how many bytes were read.(«µïüÿÿÿÿ
+Lsquid:S1905"2Remove this unnecessary cast to "HttpRequestImpl".(æ¶Øôıÿÿÿÿ
+Csquid:S1905".Remove this unnecessary cast to "HttpRequest".(à´ì
+Hsquid:S1905".Remove this unnecessary cast to "HttpRequest".(™ö¶ãıÿÿÿÿ
+Hsquid:S1905".Remove this unnecessary cast to "HttpRequest".(Èü…´øÿÿÿÿ
+Ksquid:S1905"6Remove this unnecessary cast to "HttpServletResponse".(ÖÛö‡
+Msquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(²€œ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(Ô„Òˆ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 80 to the 15 allowed.(ßŒ±íùÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(àŒ’§üÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Î®ä­
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 76 to the 15 allowed.(ßúØÿÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpConnector"; it is deprecated.(Œ•æºùÿÿÿÿ
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(ë¥ø›
+^squid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(¥Ïê±
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpConnector"; it is deprecated.(ÍØµûşÿÿÿÿ
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(ş²È£
+csquid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(ø²Ôşúÿÿÿÿ
+\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(…Éù¥úÿÿÿÿ
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestLine"; it is deprecated.(Ç²¢Ö
+]squid:CallToDeprecatedMethod"7Remove this use of "HttpRequestLine"; it is deprecated.(Ç²¢Ö
+Wsquid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(¯‚¸—
+bsquid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(æ¶Øôıÿÿÿÿ
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(ßŒ±íùÿÿÿÿ
+]squid:CallToDeprecatedMethod"2Remove this use of "HttpHeader"; it is deprecated.(ÃÂÔïüÿÿÿÿ
+[squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(­ôÙ
+asquid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(Ãñÿ¯ùÿÿÿÿ
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(¯š¯‡
+asquid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(ªå”Ïøÿÿÿÿ
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(¦Ì¶
+asquid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(Š·à“øÿÿÿÿ
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(ÏğùÍ
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(ù†¤
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(”¥¸õ
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(Ù“Å
+\squid:CallToDeprecatedMethod"6Remove this use of "DefaultHeaders"; it is deprecated.(²Å•å
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(àŒ’§üÿÿÿÿ
+\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(£îÁ¤úÿÿÿÿ
+dsquid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(„Ğ¬Ãøÿÿÿÿ
+_squid:CallToDeprecatedMethod"9Remove this use of "SocketInputStream"; it is deprecated.(°èä£
+\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(›‘—©üÿÿÿÿ
+Wsquid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(èÇ‚æ
+Gsquid:S1172"-Remove this unused method parameter "output".(àŒ’§üÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Wsquid:S2254"=Remove use of this unsecured "getRequestedSessionId()" method(ƒßØÓøÿÿÿÿ
+Wsquid:S2254"=Remove use of this unsecured "getRequestedSessionId()" method(ƒßØÓøÿÿÿÿ
+?squid:S00108")Either remove or fill this block of code.(ä ¹€
+?squid:S00108")Either remove or fill this block of code.(ä ¹€
+Tsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ÚÃ†ùÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+Osquid:S1854":Remove this useless assignment to local variable "socket".(Œ±—–
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Èõ¯Ü
+tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+:squid:S2129" Remove this "String" constructor(³ëùÿÿÿÿ
+5squid:S2129" Remove this "String" constructor(ã¡Õí
+:squid:S2129" Remove this "Double" constructor(ì£›Ôûÿÿÿÿ

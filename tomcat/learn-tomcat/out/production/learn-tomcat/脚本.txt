@@ -1,0 +1,1 @@
+java -classpath ./HowTomcatWorks/lib/servlet.jar;./learn-tomcat/out/ex03/pyrmont/startup/Bootstrap

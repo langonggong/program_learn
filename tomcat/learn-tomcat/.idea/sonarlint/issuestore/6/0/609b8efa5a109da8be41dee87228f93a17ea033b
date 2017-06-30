@@ -1,0 +1,36 @@
+
+dsquid:S3027"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(öÎÍ‘şÿÿÿÿ
+6squid:S2095"Close this "URLClassLoader".(ıëå±øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìÍ¦‡
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìÍ¦‡
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìÍ¦‡
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìÍ¦‡
+]squid:S2259"CA "NullPointerException" could be thrown; "loader" is nullable here(ëœÉ ıÿÿÿÿ
+Ysquid:S2259"DA "NullPointerException" could be thrown; "myClass" is nullable here(ÃáŒé
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+;squid:S1168"&Return an empty array instead of null.(¥¹ï
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(îÕÔªıÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( Ô÷ûÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Èá˜ùÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê¤Éÿÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ò’Š¯
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İÑÄ£şÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’§º¸úÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¤ÍÜå
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü››ë
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬ìïıÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Òùµñúÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’€÷É
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦¦½Œúÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Äé‘·ıÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òğÂ”ıÿÿÿÿ
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñŠÇ”
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Úëá
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íşÿÎşÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(õß†ªøÿÿÿÿ
