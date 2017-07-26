@@ -1,0 +1,76 @@
+
+esquid:S1134"DTake the required action to fix the issue indicated by this comment.(ı‘›£øÿÿÿÿ8½²âŠÒ+
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(úáÍÊøÿÿÿÿ
+Vsquid:S1133"5Do not forget to remove this deprecated code someday.(Û„¡ùÿÿÿÿ8½²âŠÒ+
+:squid:S2129"Remove this "Long" constructor(öÑ‹®8½²âŠÒ+
+Tsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(ÈñğÆ8½²âŠÒ+
+jsquid:HiddenFieldCheck">Rename "listeners" which hides the field declared at line 234.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+gsquid:CallToDeprecatedMethod":Remove this use of "HttpSessionContext"; it is deprecated.(Ô«½¡8½²âŠÒ+
+Fsquid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ß°‘°üÿÿÿÿ8½²âŠÒ+
+`squid:S1134"DTake the required action to fix the issue indicated by this comment.(Û“ÿ8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(¹‰ÿˆÿÿÿÿÿ8½²âŠÒ+
+`squid:S1134"DTake the required action to fix the issue indicated by this comment.(Û“ÿ8½²âŠÒ+
+6squid:S2129"!Remove this "Integer" constructor(×ı‰
+Tsquid:S1197"8Move the array designator from the variable to the type.(õøøğ8½²âŠÒ+
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(§Ãóòøÿÿÿÿ8½²âŠÒ+
+Qsquid:S2209"5Change this instance-reference to a static reference.(ÓÔ«8½²âŠÒ+
+8squid:S2129"Remove this "Long" constructor(ÓèÆÍüÿÿÿÿ
+Ysquid:S1197"8Move the array designator from the variable to the type.(ïÊÅÀøÿÿÿÿ8½²âŠÒ+
+msquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÔÖÇ]8½²âŠÒ+
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(„’ø©8½²âŠÒ+
+6squid:S2129"!Remove this "Boolean" constructor(£Ø¡ô
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¹œÚîúÿÿÿÿ8½²âŠÒ+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8½²âŠÒ+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8½²âŠÒ+
+Ysquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(Û„¡ùÿÿÿÿ8½²âŠÒ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹Û‰Â8½²âŠÒ+
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(óÒ¦ 8½²âŠÒ+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8½²âŠÒ+
+jsquid:HiddenFieldCheck">Rename "listeners" which hides the field declared at line 234.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+Tsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(„’ø©8½²âŠÒ+
+esquid:S1134"DTake the required action to fix the issue indicated by this comment.(ı‘›£øÿÿÿÿ8½²âŠÒ+
+jsquid:HiddenFieldCheck">Rename "listeners" which hides the field declared at line 234.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8½²âŠÒ+
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ç³Åİ8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(¹‰ÿˆÿÿÿÿÿ8½²âŠÒ+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ù”íºùÿÿÿÿ8½²âŠÒ+
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(Õ¸ºÄ8½²âŠÒ+
+Jsquid:S1905")Remove this unnecessary cast to "Object".(ƒÔèíıÿÿÿÿ8½²âŠÒ+
+Tsquid:S1197"8Move the array designator from the variable to the type.(Òê§€8½²âŠÒ+
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+Bsquid:S2129"!Remove this "Integer" constructor(äâÈÛşÿÿÿÿ8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(¹‰ÿˆÿÿÿÿÿ8½²âŠÒ+
+Ssquid:S1905"2Remove this unnecessary cast to "SessionListener".(Ù†òçøÿÿÿÿ8½²âŠÒ+
+Fsquid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8½²âŠÒ+
+Tsquid:S1197"8Move the array designator from the variable to the type.(ç¬œ·8½²âŠÒ+
+Psquid:S1133"5Do not forget to remove this deprecated code someday.(ıê[8½²âŠÒ+
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(ÈñğÆ8½²âŠÒ+
+gsquid:CallToDeprecatedMethod":Remove this use of "HttpSessionContext"; it is deprecated.(óÒ¦ 8½²âŠÒ+
+Fsquid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8½²âŠÒ+
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(«È¬µ
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(¼›²Í8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+`squid:S1134"DTake the required action to fix the issue indicated by this comment.(òà²œ8½²âŠÒ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ®çÛ8½²âŠÒ+
+6squid:S2129"!Remove this "Boolean" constructor(£·Ñ
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(úáÍÊøÿÿÿÿ8½²âŠÒ+
+Qsquid:S1133"5Do not forget to remove this deprecated code someday.(®ŠÈõ8½²âŠÒ+
+`squid:S1134"DTake the required action to fix the issue indicated by this comment.(Û“ÿ8½²âŠÒ+
+fsquid:CallToDeprecatedMethod":Remove this use of "HttpSessionContext"; it is deprecated.(ıê[8½²âŠÒ+
+Ysquid:S1197"8Move the array designator from the variable to the type.(¹‰ÿˆÿÿÿÿÿ8½²âŠÒ+
+Tsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(óÒ¦ 8½²âŠÒ+
+`squid:S1134"DTake the required action to fix the issue indicated by this comment.(Û“ÿ8½²âŠÒ+
+3squid:S2129"Remove this "Long" constructor(”‡Ã´
+jsquid:HiddenFieldCheck">Rename "listeners" which hides the field declared at line 234.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+Asquid:S1872"'Use an "instanceof" comparison instead.(ƒà‰‹ÿÿÿÿÿ
+Ysquid:S1197"8Move the array designator from the variable to the type.(­†ˆÙûÿÿÿÿ8½²âŠÒ+
+Fsquid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8½²âŠÒ+
+Tsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(¼›²Í8½²âŠÒ+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8½²âŠÒ+
+Ssquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(ıê[8½²âŠÒ+

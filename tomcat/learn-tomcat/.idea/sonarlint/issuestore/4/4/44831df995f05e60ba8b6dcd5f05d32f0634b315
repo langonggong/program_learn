@@ -1,0 +1,9 @@
+
+Bsquid:S1481"(Remove this unused "bis" local variable.(ÜðŸÆüÿÿÿÿ
+Jsquid:S2209"5Change this instance-reference to a static reference.(ÓŽÔ«
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(û°õ¹
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÁƒñÿÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å¹Ù°
+Osquid:S2209"5Change this instance-reference to a static reference.(¶ÑÎŠùÿÿÿÿ
+Nsquid:S2387"9"name" is the name of a field in "PersistentManagerBase".(«ÊË·

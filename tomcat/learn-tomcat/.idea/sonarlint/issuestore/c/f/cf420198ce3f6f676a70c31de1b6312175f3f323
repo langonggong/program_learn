@@ -1,0 +1,6 @@
+
+Msquid:S1197"8Move the array designator from the variable to the type.(äšÚ…
+Msquid:S1197"8Move the array designator from the variable to the type.(Úç‡³
+`squid:S2445"L"valves" is not "private final", and should not be used for synchronization.(Œ‰Àh
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Õ©’¥
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(á½•óúÿÿÿÿ

@@ -1,0 +1,6 @@
+
+Esquid:S1481"0Remove this unused "servletPath" local variable.(×ê’÷
+Bsquid:S1481"-Remove this unused "pathInfo" local variable.(žíì¬
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥¥ý•ÿÿÿÿÿ
+Tsquid:S1854"?Remove this useless assignment to local variable "servletPath".(×ê’÷
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(á½•óúÿÿÿÿ

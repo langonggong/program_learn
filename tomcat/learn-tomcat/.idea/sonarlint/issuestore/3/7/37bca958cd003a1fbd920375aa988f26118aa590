@@ -1,0 +1,6 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†¼„­ùÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpConnector"; it is deprecated.(ØÊñÐÿÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpConnector"; it is deprecated.(ØÊñÐÿÿÿÿÿ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Š˜­¹úÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

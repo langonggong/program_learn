@@ -1,0 +1,8 @@
+
+dsquid:CallToDeprecatedMethod"9Remove this use of "getSessionContext"; it is deprecated.(ïÍ¯ þÿÿÿÿ
+_squid:CallToDeprecatedMethod":Remove this use of "HttpSessionContext"; it is deprecated.(ýŽê[
+Qsquid:S2441"<Make "Object" serializable or don't store it in the session.(ÞñË›
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(Î®âÜ
+Hsquid:S1905".Remove this unnecessary cast to "HttpSession".(·œœþÿÿÿÿ
+[squid:CallToDeprecatedMethod"5Remove this use of "getValueNames"; it is deprecated.(ãË»®
+Qsquid:S2441"<Make "Object" serializable or don't store it in the session.(ÞñË›

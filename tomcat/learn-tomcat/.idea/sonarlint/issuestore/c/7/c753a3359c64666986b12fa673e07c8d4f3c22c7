@@ -1,0 +1,22 @@
+
+^squid:S2583"DChange this condition so that it does not always evaluate to "false"(ÚÀ”Ñúÿÿÿÿ
+Qsquid:S2589"7Remove this expression which always evaluates to "true"(ÚÀ”Ñúÿÿÿÿ
+Lsquid:S2387"2"storeName" is the name of a field in "StoreBase".(¾Ëªóûÿÿÿÿ
+psquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í¹ŒÌ
+T
+squid:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖãÊÿÿÿÿÿ
+Msquid:S2387"3"threadName" is the name of a field in "StoreBase".(Ê¹øÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Bsquid:S2387"-"info" is the name of a field in "StoreBase".(í¹ŒÌ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ÿ÷Œ¨ÿÿÿÿÿ
+Isquid:S2095"4Close this "FileOutputStream" in a "finally" clause.(ºÚï·
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖãÊÿÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Ysquid:S2583"DChange this condition so that it does not always evaluate to "false"(¿¹™ê
+Msquid:S2095"3Close this "FileInputStream" in a "finally" clause.(èİóáıÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ê¹øÿÿÿÿ
+T
+squid:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾Ëªóûÿÿÿÿ

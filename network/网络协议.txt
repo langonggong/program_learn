@@ -1,0 +1,8 @@
+ssl与https
+http://www.techug.com/post/https-ssl-tls.html
+
+http与https
+http://www.cnblogs.com/ok-lanyan/archive/2012/07/14/2591204.html
+
+SSL与数字证书
+http://www.linuxde.net/2012/03/8301.html

@@ -1,0 +1,46 @@
+
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(ä¼Äê
+Dsquid:EmptyStatementUsageCheck"Remove this empty statement.(Á½æº
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+Nsquid:S1854"9Remove this useless assignment to local variable "dummy".(¬ºñˆ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(í°ÈÍ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(†ãâô
+6squid:S2129"!Remove this "Boolean" constructor(ÅîÂ˜
+;squid:S2129"!Remove this "Integer" constructor(ãÍòšúÿÿÿÿ
+Asquid:S1481",Remove this unused "context" local variable.(æË€é
+5squid:S2129"!Remove this "Integer" constructor(…‚ù}
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+Jsquid:S2209"5Change this instance-reference to a static reference.(ÓÔ«
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(òÒİãüÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(Û€Ã
+;squid:S2129"!Remove this "Integer" constructor(é³Òúÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(ó÷Ş…
+ssquid:S1450"YRemove the "threadName" field and declare it as a local variable in the relevant methods.(Ò‡”‰ıÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(çƒÈÜúÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(ÉåÇ
+Psquid:S1854";Remove this useless assignment to local variable "context".(æË€é
+Dsquid:EmptyStatementUsageCheck"Remove this empty statement.(Á½æº
+6squid:S2129"!Remove this "Integer" constructor(½±š‡
+6squid:S2129"!Remove this "Integer" constructor(ÉåÇ
+;squid:S2129"!Remove this "Boolean" constructor(©õŸüÿÿÿÿ
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïşÕ»úÿÿÿÿ
+Ysquid:S1134"DTake the required action to fix the issue indicated by this comment.(Çƒ’î
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùÎüÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1481"*Remove this unused "dummy" local variable.(¬ºñˆ
+6squid:S2129"!Remove this "Integer" constructor(†ŒÒª
+;squid:S2129"!Remove this "Integer" constructor(°æ§‹ıÿÿÿÿ
+Dsquid:S2387"/"name" is the name of a field in "ManagerBase".(Éø¢©
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(÷ï”Ì
+Dsquid:EmptyStatementUsageCheck"Remove this empty statement.(Á½æº
+6squid:S2129"!Remove this "Integer" constructor(‚Ü
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+;squid:S2129"!Remove this "Integer" constructor(˜¿É¬ùÿÿÿÿ
+Dsquid:EmptyStatementUsageCheck"Remove this empty statement.(Á½æº

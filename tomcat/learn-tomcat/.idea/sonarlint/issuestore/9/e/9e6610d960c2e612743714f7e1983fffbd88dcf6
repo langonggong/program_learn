@@ -1,0 +1,34 @@
+
+Psquid:UnusedPrivateMethod"(Remove this unused private "log" method.(äÂËµûÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(†ñşµşÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÑàÃâûÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(æÓğıÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(šÑ¯æ
+Msquid:S1197"8Move the array designator from the variable to the type.(šÑ¯æ
+Rsquid:S1197"8Move the array designator from the variable to the type.(âÜÿÿÿÿÿ
+`squid:HiddenFieldCheck"@Rename "queryString" which hides the field declared at line 160.(”ºáœ
+esquid:HiddenFieldCheck"@Rename "servletPath" which hides the field declared at line 202.(÷ ¶Åúÿÿÿÿ
+\squid:HiddenFieldCheck"<Rename "session" which hides the field declared at line 208.(æ¨Íé
+Lsquid:S2589"7Remove this expression which always evaluates to "true"(šÆÓù
+Lsquid:S2589"7Remove this expression which always evaluates to "true"(•õĞ
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(÷ûÌ÷şÿÿÿÿ
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(ƒ“›°øÿÿÿÿ
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+[squid:S1226"AIntroduce a new variable instead of reusing the parameter "name".(ì˜çúÿÿÿÿ
+Rsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(÷ûÌ÷şÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ã§çØ
+fsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ª–Ø|
+^squid:CallToDeprecatedMethod"3Remove this use of "RequestBase"; it is deprecated.(˜ğÉ¶üÿÿÿÿ
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(úãÌ#
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(úãÌ#
+Esquid:S2387"1"facade" is the name of a field in "RequestBase".(êİó
+Isquid:S2387"/"info" is the name of a field in "RequestBase".(º°ªÒûÿÿÿÿ
+Fsquid:S2387"1"secure" is the name of a field in "RequestBase".(½Ëª
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(º°ªÒûÿÿÿÿ
+tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‚´Ó÷
+tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨¢â
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ª–’Ä

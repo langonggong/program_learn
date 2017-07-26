@@ -1,0 +1,51 @@
+
+;squid:S2129"!Remove this "Integer" constructor(ãé¾°ýÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùŽÎüÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÖùŽÎüÿÿÿÿ
+Msquid:S2095"3Close this "FileInputStream" in a "finally" clause.(èÝóáýÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Lsquid:S2589"7Remove this expression which always evaluates to "true"(¿¹™ê
+Jsquid:S2209"5Change this instance-reference to a static reference.(ÓŽÔ«
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÓŠëØÿÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "oos".(žþÂµùÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(ãÍòšúÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(ö¡ÈŽûÿÿÿÿ
+Lsquid:S1905"2Remove this unnecessary cast to "StandardSession".(‘±¸¯ýÿÿÿÿ
+Psquid:S1854";Remove this useless assignment to local variable "context".(æË€é
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+m
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¢–¯É
+Ysquid:S2583"DChange this condition so that it does not always evaluate to "false"(¿¹™ê
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+;squid:S2129"!Remove this "Integer" constructor(é³Òúÿÿÿÿ
+Nsquid:S1854"9Remove this useless assignment to local variable "dummy".(¬ºñˆ
+Lsquid:S1905"2Remove this unnecessary cast to "StandardSession".(»²è´øÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(˜¿É¬ùÿÿÿÿ
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+6squid:S2129"!Remove this "Integer" constructor(†ŒÒª
+Qsquid:S1854"7Remove this useless assignment to local variable "oos".(žþÂµùÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "oos".(žþÂµùÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "oos".(žþÂµùÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¾²×–
+nsquid:S1450"YRemove the "threadName" field and declare it as a local variable in the relevant methods.(ì¦Ÿì
+?squid:S1481"*Remove this unused "dummy" local variable.(¬ºñˆ
+Dsquid:S2387"/"name" is the name of a field in "ManagerBase".(Ú¢ý¨
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(”šê
+Lsquid:S2589"7Remove this expression which always evaluates to "true"(¿¹™ê
+?squid:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+Asquid:S1481",Remove this unused "context" local variable.(æË€é
+usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿž®¬þÿÿÿÿ
+T
+squid:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+Isquid:S2095"4Close this "FileOutputStream" in a "finally" clause.(ºÚï·

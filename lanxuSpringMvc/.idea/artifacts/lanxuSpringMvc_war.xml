@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lanxuSpringMvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="lanxu-springmvc.war">
+      <element id="artifact" artifact-name="lanxuSpringMvc:war exploded" />
+    </root>
+  </artifact>
+</component>

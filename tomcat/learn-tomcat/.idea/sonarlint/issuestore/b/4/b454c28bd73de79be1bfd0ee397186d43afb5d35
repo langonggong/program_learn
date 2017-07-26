@@ -1,58 +1,58 @@
 
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(“–ış
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+Rsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(‘ªÖ¤úÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+zsquid:S2273"`Move this call to "wait()" into a synchronized block to be sure the monitor on "Object" is held.(ÚÃ†ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ÏÀàûÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+jsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ì¢š³ûÿÿÿÿ
 Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Fsquid:S1905",Remove this unnecessary cast to "Lifecycle".(Äòº†şÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ÖàÈÿşÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
 Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
-Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(ğı«Ÿûÿÿÿÿ
+[squid:HiddenFieldCheck"<Rename "factory" which hides the field declared at line 107.(¯Ò×
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(«”Á
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+^squid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(µ‰İç
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(±œ˜™
+bsquid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(…à›‚şÿÿÿÿ
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ßËÓä
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
 l
 squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ö‰ÄI
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ÿ•óÙ
+Osquid:S1133"5Do not forget to remove this deprecated code someday.(‘ªÖ¤úÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ğÖˆŞşÿÿÿÿ
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(Ù Ş
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ßËÓä
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
+Tsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ÚÃ†ùÿÿÿÿ
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
 _squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï‹Ÿ@
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(´ÏÀàûÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(´ÏÀàûÿÿÿÿ
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Fsquid:S1905",Remove this unnecessary cast to "Lifecycle".(ğé±Ñúÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¯”­øÿÿÿÿ
+`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(¼èš“ùÿÿÿÿ
+ysquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ãÔ
+\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(…Éù¥úÿÿÿÿ
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(ñ®çÛ
-[squid:HiddenFieldCheck"<Rename "factory" which hides the field declared at line 107.(¯Ò×
+bsquid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(…à›‚şÿÿÿÿ
+^squid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(µ‰İç
 Osquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Osquid:S1133"5Do not forget to remove this deprecated code someday.(‘ªÖ¤úÿÿÿÿ
-Fsquid:S1905",Remove this unnecessary cast to "Lifecycle".(Äòº†şÿÿÿÿ
-Fsquid:S1905",Remove this unnecessary cast to "Lifecycle".(ğé±Ñúÿÿÿÿ
-Rsquid:MissingDeprecatedCheck"'Add the missing @Deprecated annotation.(‘ªÖ¤úÿÿÿÿ
-gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(“–ış
-\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(ğı«Ÿûÿÿÿÿ
-\squid:CallToDeprecatedMethod"1Remove this use of "Constants"; it is deprecated.(…Éù¥úÿÿÿÿ
-bsquid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(…à›‚şÿÿÿÿ
-bsquid:CallToDeprecatedMethod"7Remove this use of "HttpRequestImpl"; it is deprecated.(…à›‚şÿÿÿÿ
-^squid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(µ‰İç
-^squid:CallToDeprecatedMethod"8Remove this use of "HttpResponseImpl"; it is deprecated.(µ‰İç
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(«”Á
-`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ğÖˆŞşÿÿÿÿ
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(±œ˜™
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ÿ•óÙ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òİäáùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ÏÀàûÿÿÿÿ
 `squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ÖàÈÿşÿÿÿÿ
-`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ÖàÈÿşÿÿÿÿ
-`squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(¼èš“ùÿÿÿÿ
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(Ù Ş
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ßËÓä
-[squid:CallToDeprecatedMethod"5Remove this use of "HttpProcessor"; it is deprecated.(ßËÓä
-[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-zsquid:S2273"`Move this call to "wait()" into a synchronized block to be sure the monitor on "Object" is held.(ÚÃ†ùÿÿÿÿ
-Tsquid:S2274":Remove this call to "wait" or move it into a "while" loop.(ÚÃ†ùÿÿÿÿ
 usquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ş÷¯µıÿÿÿÿ
-ysquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ãÔ
-jsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ì¢š³ûÿÿÿÿ
-Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¯”­øÿÿÿÿ
