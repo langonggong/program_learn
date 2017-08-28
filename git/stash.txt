@@ -1,0 +1,6 @@
+git stash lish
+git stash save "信息"
+git stash pop 名字
+git stash show 名字
+git stash show -p 名字
+git stash drop 名字
