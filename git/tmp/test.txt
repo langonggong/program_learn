@@ -1,2 +1,4 @@
 i am test
 add some text to test file
+write nothing in test.txt 
+lonely test
