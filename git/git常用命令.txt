@@ -2,6 +2,7 @@
 git log 查看提交历史,git log --graph --pretty=oneline --abbrev-commit和git log --graph可以看到分之合并图
 git reflog 查看命令历史
 git diff HEAD -- fileName 查看工作区文件与版本库的差异
+git log origin/远程分支名 -n 5 查看远程分支最近五次提交的日志
 
 撤销修改
 git checkout -- file可以丢弃工作区的修改
