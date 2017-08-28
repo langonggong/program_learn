@@ -5,9 +5,12 @@ git diff HEAD -- fileName 查看工作区文件与版本库的差异
 git log origin/远程分支名 -n 5 查看远程分支最近五次提交的日志
 
 撤销修改
-git checkout -- file可以丢弃工作区的修改
+
+git checkout -- file可以丢弃工作区的修改,让工作区和版本库一致
 1.文件未add
 2.文件add后再次修改，checkout后回到刚刚add的状态
+
+git reset HEAD file  撤销暂存区的修改，文件回到工作区，即add后未提交；让暂存区和版本库一致
 
 撤销删除
 git chcekout file  rm误删除。该命令使用版本库里的文件版本替换工作区的版本
@@ -20,7 +23,6 @@ git chcekout file  rm误删除。该命令使用版本库里的文件版本替�
 git rm  file
 git commit 
 
-git reset HEAD file 撤销暂存区的修改，文件回到工作区，即add后未提交
 
 版本回退
 git reset --hard commit_id
