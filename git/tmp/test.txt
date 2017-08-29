@@ -4,3 +4,4 @@ i si si
 write nothing in test.txt 
 lonely test
 try merge 1 in test
+after merge
