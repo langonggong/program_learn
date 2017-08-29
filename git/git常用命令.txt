@@ -26,7 +26,6 @@ git commit
 
 版本回退
 git reset --hard commit_id
-se
 分支管理
 查看分支：git branch
 创建分支：git branch <name>
