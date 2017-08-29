@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -12,7 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @create 2017年07月22 17:22
  **/
 @Controller
-@RequestMapping("/home")
 public class TestController {
 
   //添加一个日志器
@@ -26,7 +26,7 @@ public class TestController {
     return "view";
   }
 
-  @RequestMapping("json")
+  @RequestMapping(value = "json", method = RequestMethod.GET)
   @ResponseBody
   public String getString() {
     return "hello spring mvc";

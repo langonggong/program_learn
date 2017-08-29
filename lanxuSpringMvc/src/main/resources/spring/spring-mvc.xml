@@ -25,7 +25,7 @@
     <mvc:resources mapping="/css/**" location="WEB-INF/statics/css/"/>
     <mvc:resources mapping="/js/**" location="WEB-INF/statics/js/"/>
     <mvc:resources mapping="/image/**" location="WEB-INF/statics/image/"/>
-    
+
     <!-- 配置注解驱动 可以将request参数与绑定到controller参数上 -->
     <mvc:annotation-driven/>
 
@@ -55,6 +55,12 @@
           class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
         <!-- freemarker模板位置 -->
         <property name="templateLoaderPaths" value="/WEB-INF/views/"/>
+    </bean>
+
+    <!-- 配置JSON视图 -->
+
+    <bean name="jsonViewResolver" class="com.alibaba.fastjson.support.spring.FastJsonJsonView">
+        <property name="contentType" value="text/html; charset=utf-8"/>
     </bean>
 
     <!-- springmvc文件上传需要配置的节点-->
