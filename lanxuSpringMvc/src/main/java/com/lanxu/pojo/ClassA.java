@@ -10,6 +10,8 @@ public class ClassA {
 
   private int number;
 
+  private static String str;
+
   public void setInterfaceB(InterfaceB interfaceB) {
     this.interfaceB = interfaceB;
   }
@@ -37,5 +39,9 @@ public class ClassA {
 
   public int getClassBAnything() {
     return this.interfaceB.getAnything();
+  }
+
+  public static String getStr() {
+    return str;
   }
 }

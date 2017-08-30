@@ -202,4 +202,31 @@ public class TotalTest {
 
     Assert.assertEquals(1000, abstractA.getAnything());
   }
+
+  /**
+   * 设置私有属性
+   */
+  @Test
+  public void testMockPrivateProperty() {
+    final ClassA classA = new ClassA();
+    new NonStrictExpectations(classA) {
+      {
+        Deencapsulation.setField(classA, "number", 666);
+      }
+    };
+    Assert.assertEquals(666, classA.getNumber());
+  }
+
+  /**
+   * 设置静态私有属性
+   */
+  @Test
+  public void testMockPrivateStaticProperty() {
+    new NonStrictExpectations(ClassA.class) {
+      {
+        Deencapsulation.setField(ClassA.class, "str", "str has been changed!");
+      }
+    };
+    Assert.assertEquals("str has been changed!", ClassA.getStr());
+  }
 }
