@@ -6,6 +6,8 @@ import mockit.Expectations;
 import mockit.Injectable;
 import mockit.Verifications;
 import mockit.integration.junit4.JMockit;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -16,6 +18,9 @@ import org.junit.runner.RunWith;
  **/
 @RunWith(JMockit.class)
 public class TestInjectable {
+
+  private final Log logger = LogFactory.getLog(TestInjectable.class);
+
   @Injectable
   SimpleTool simpleTool;
 
@@ -30,10 +35,10 @@ public class TestInjectable {
       }
     };
 
-    System.out.println(simpleTool.fun1("param"));
-    System.out.println(simpleTool.fun3("param"));
-    System.out.println(new UseSimpleTool().fun1("param"));
-    System.out.println(new UseSimpleTool().fun3("param"));
+    logger.info(simpleTool.fun1("param"));
+    logger.info(simpleTool.fun3("param"));
+    logger.info(new UseSimpleTool().fun1("param"));
+    logger.info(new UseSimpleTool().fun3("param"));
 
     new Verifications() {
       {

@@ -9,6 +9,9 @@ import mockit.integration.junit4.JMockit;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.util.Log4jConfigurer;
+
+import java.io.FileNotFoundException;
 
 /**
  * @author lanxu
@@ -18,6 +21,14 @@ import org.junit.runner.RunWith;
  **/
 @RunWith(JMockit.class)
 public class TotalTest {
+
+  static {
+    try {
+      Log4jConfigurer.initLogging("classpath:log/log4j.xml");
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    }
+  }
 
   /**
    * mock私有方法

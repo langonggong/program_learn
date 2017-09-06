@@ -6,6 +6,8 @@ import mockit.Mock;
 import mockit.MockUp;
 import mockit.Mocked;
 import mockit.integration.junit4.JMockit;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -16,6 +18,9 @@ import org.junit.runner.RunWith;
  **/
 @RunWith(JMockit.class)
 public class TestInterface {
+
+  private final Log logger = LogFactory.getLog(TestInterface.class);
+
   @Mocked
   SimpleInterface simpleInterface;
 
@@ -34,12 +39,12 @@ public class TestInterface {
 
     }.getMockInstance();
 
-    System.out.println(mockInstance.getCityName());
-    System.out.println(mockInstance.getAreaName());
-    System.out.println(simpleInterface.getCityName());
-    System.out.println(simpleInterface.getAreaName());
+    logger.info(mockInstance.getCityName());
+    logger.info(mockInstance.getAreaName());
+    logger.info(simpleInterface.getCityName());
+    logger.info(simpleInterface.getAreaName());
     SimpleInterfaceImpl simpleInterfaceImpl = new SimpleInterfaceImpl();
-    System.out.println(simpleInterfaceImpl.getCityName());
-    System.out.println(simpleInterfaceImpl.getAreaName());
+    logger.info(simpleInterfaceImpl.getCityName());
+    logger.info(simpleInterfaceImpl.getAreaName());
   }
 }

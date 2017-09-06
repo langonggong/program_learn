@@ -9,6 +9,14 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
+    <context-param>
+        <param-name>log4jConfigLocation</param-name>
+        <param-value>classpath:log/log4j.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+    </listener>
+
     <!--配置springmvc DispatcherServlet-->
     <servlet>
         <servlet-name>springMVC</servlet-name>
@@ -28,4 +36,5 @@
         <servlet-name>springMVC</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
 </web-app>

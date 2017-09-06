@@ -7,6 +7,8 @@ import mockit.Expectations;
 import mockit.Mocked;
 import mockit.Verifications;
 import mockit.integration.junit4.JMockit;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -17,6 +19,9 @@ import org.junit.runner.RunWith;
  **/
 @RunWith(JMockit.class)
 public class TestDelegate {
+
+  private final Log logger = LogFactory.getLog(TestDelegate.class);
+
   @Mocked
   SimpleTool simpleTool;
 
@@ -35,8 +40,8 @@ public class TestDelegate {
     };
 
     System.out.println(simpleTool.fun1("param0"));
-    System.out.println(simpleTool.fun3("param"));
-    System.out.println(new UseSimpleTool().fun1("param1"));
+    logger.info(simpleTool.fun3("param"));
+    logger.info(new UseSimpleTool().fun1("param1"));
 
     new Verifications() {
       {
