@@ -14,9 +14,9 @@
             所有下面输出的是debug到warn不会有error和fatal
         -->
         <filter class="org.apache.log4j.varia.LevelRangeFilter">
-            <param name="levelMin" value="INFO"/>
+            <param name="levelMin" value="DEBUG"/>
             <param name="levelMax" value="ERROR"/>
-            <param name="AcceptOnMatch" value="true"/>  <!-- 答案：http://bbs.csdn.net/topics/350195913 -->
+            <param name="AcceptOnMatch" value="false"/>  <!-- 答案：http://bbs.csdn.net/topics/350195913 -->
         </filter>
     </appender>
 
@@ -56,8 +56,8 @@
         </layout>
         <!-- 我只想记录info日志，就做如下设置 -->
         <filter class="org.apache.log4j.varia.LevelRangeFilter">
-            <param name="LevelMax" value="info"/>
-            <param name="LevelMin" value="info"/>
+            <param name="LevelMax" value="error"/>
+            <param name="LevelMin" value="debug"/>
         </filter>
     </appender>
 
@@ -84,7 +84,7 @@
     <!-- info log -->
     <!-- name指定的是包名，这样只操作此包下的log -->
     <logger name="com.lanxu.controller" additivity="false">
-        <level value="INFO"></level>
+        <level value="DEBUG"></level>
         <appender-ref ref="INFO-APPENDER"/>
         <appender-ref ref="console"/>
     </logger>

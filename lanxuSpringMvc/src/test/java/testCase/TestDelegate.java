@@ -39,7 +39,7 @@ public class TestDelegate {
       }
     };
 
-    System.out.println(simpleTool.fun1("param0"));
+    logger.info(simpleTool.fun1("param0"));
     logger.info(simpleTool.fun3("param"));
     logger.info(new UseSimpleTool().fun1("param1"));
 

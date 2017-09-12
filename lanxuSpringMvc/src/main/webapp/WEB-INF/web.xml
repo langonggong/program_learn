@@ -25,8 +25,8 @@
             <!--Sources标注的文件夹下需要新建一个spring文件夹-->
             <param-name>contextConfigLocation</param-name>
             <param-value>
-                classpath:spring/spring-mvc.xml,
-                classpath:quartz/spring-quartz.xml
+                classpath:spring/spring-mvc.xml
+                <!--,classpath:quartz/spring-quartz.xml-->
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>

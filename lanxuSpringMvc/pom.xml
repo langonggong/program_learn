@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <org.springframework.version>3.2.13.RELEASE</org.springframework.version>
+        <org.springframework.version>4.2.5.RELEASE</org.springframework.version>
         <quartz.version>2.2.1</quartz.version>
         <commons.dbcp.version>1.4</commons.dbcp.version>
     </properties>
@@ -168,6 +168,25 @@
             <artifactId>quartz</artifactId>
             <version>${quartz.version}</version>
         </dependency>
+
+        <!--websocket-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-websocket</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-messaging</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
