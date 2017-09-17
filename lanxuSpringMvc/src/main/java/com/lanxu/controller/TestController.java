@@ -1,10 +1,14 @@
 package com.lanxu.controller;
 
+import com.lanxu.pojo.User;
+import com.lanxu.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -14,6 +18,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
  **/
 @Controller
 public class TestController {
+
+  @Autowired
+  UserService userService;
 
   //添加一个日志器
   private static final Logger logger = LoggerFactory.getLogger(TestController.class);
@@ -30,5 +37,26 @@ public class TestController {
   @ResponseBody
   public String getString() {
     return "hello spring mvc";
+  }
+
+  @RequestMapping(value = "select", method = RequestMethod.GET)
+  @ResponseBody
+  public User selectByPrimaryKey(@RequestParam("id") int id) {
+    return userService.selectByPrimaryKey(id);
+  }
+
+  @RequestMapping(value = "insert", method = RequestMethod.GET)
+  @ResponseBody
+  public String insertSelective(@RequestParam("id") int id, @RequestParam("name") String name) {
+    User user = new User(id + "", name);
+    userService.insertSelective(user);
+    return "success!";
+  }
+
+  @RequestMapping(value = "delete", method = RequestMethod.GET)
+  @ResponseBody
+  public String deleteByPrimaryKey(@RequestParam("id") int id) {
+    userService.deleteByPrimaryKey(id);
+    return "success!";
   }
 }
