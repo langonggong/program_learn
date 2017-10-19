@@ -71,4 +71,6 @@
          <property name="defaultEncoding" value="UTF-8"/>
          <property name="resolveLazily" value="true"/>
      </bean>-->
+
+    <import resource="classpath:redis/spring-redis.xml"/>
 </beans>

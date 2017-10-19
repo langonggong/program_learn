@@ -1,5 +1,6 @@
 package com.lanxu.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.lanxu.pojo.User;
 import com.lanxu.service.UserService;
 import org.slf4j.Logger;
@@ -41,8 +42,8 @@ public class TestController {
 
   @RequestMapping(value = "select", method = RequestMethod.GET)
   @ResponseBody
-  public User selectByPrimaryKey(@RequestParam("id") int id) {
-    return userService.selectByPrimaryKey(id);
+  public String selectByPrimaryKey(@RequestParam("id") int id) {
+    return JSON.toJSONString(userService.selectByPrimaryKey(id));
   }
 
   @RequestMapping(value = "insert", method = RequestMethod.GET)

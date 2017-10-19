@@ -10,7 +10,7 @@ import com.lanxu.pojo.User;
 public interface UserService {
   public User selectByPrimaryKey(Integer id);
 
-  public void insertSelective(User user);
+  public User insertSelective(User user);
 
   public void deleteByPrimaryKey(Integer id);
 

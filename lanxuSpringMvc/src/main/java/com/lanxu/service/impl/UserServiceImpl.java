@@ -17,13 +17,13 @@ public class UserServiceImpl implements UserService {
 
   @Cacheable(value = "common", key = "'id_'+#id")
   public User selectByPrimaryKey(Integer id) {
-    User user = new User("1001", "lanxu");
+    User user = new User(id + "", "lanxu");
     return user;
   }
 
-  @CachePut(value = "common", key = "#user.getUserName()")
-  public void insertSelective(User user) {
-//		userDao.insertSelective(user);
+  @CachePut(value = "common", key = "#user.getName()")
+  public User insertSelective(User user) {
+    return user;
   }
 
   @CacheEvict(value = "common", key = "'id_'+#id")

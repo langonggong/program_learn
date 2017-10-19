@@ -13,7 +13,7 @@ import java.io.IOException;
  * @create 2017年09月12 23:14
  * @url http://www.cnblogs.com/best/archive/2016/09/12/5695570.html
  **/
-@ServerEndpoint("/push")
+//@ServerEndpoint("/push")
 public class EchoEndpoint {
 
   private Logger log = LoggerFactory.getLogger(ServerEndpoint.class);
