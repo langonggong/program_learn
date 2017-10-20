@@ -10,3 +10,4 @@ test2 add 1
 test2 add 2
 test1 add 1
 test1 add 1
+test1 add 2
