@@ -7,3 +7,4 @@ write nothing in test.txt
 lonely test
 try merge 1 in test
 test1 add 1
+test1 add 2
