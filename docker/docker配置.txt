@@ -1,0 +1,6 @@
+给docker分配ip
+http://www.cnblogs.com/agang-php/p/6125903.html
+
+获取镜像
+docker pull ubuntu:14.04
+运行容器
