@@ -1,3 +1,9 @@
+分支
+从远程拉取分支
+git checkout -b <branch> origin/<branch>
+推送commit到远程分支
+git push origin <branch>:<branch>
+
 日志
 git log 查看提交历史,git log --graph --pretty=oneline --abbrev-commit和git log --graph可以看到分之合并图
 git reflog 查看命令历史
