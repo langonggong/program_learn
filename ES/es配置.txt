@@ -1,0 +1,46 @@
+#client-80
+cluster.name: xu.lan.cluster
+node.name: client
+
+network.host: 192.168.20.80
+http.port: 9200
+transport.tcp.port: 9300
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
+node.master: false
+node.data: false
+discovery.zen.ping.unicast.hosts: ["192.168.20.104"]
+
+
+#master-104
+cluster.name: xu.lan.cluster
+node.name: master
+
+network.host: 192.168.20.104
+http.port: 9200
+transport.tcp.port: 9300
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
+node.master: true
+node.data: true
+discovery.zen.ping.unicast.hosts: ["192.168.20.104"]
+
+
+#data-105
+cluster.name: xu.lan.cluster
+node.name: data
+
+network.host: 192.168.20.105
+http.port: 9200
+transport.tcp.port: 9300
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+
+node.master: false
+node.data: true
+discovery.zen.ping.unicast.hosts: ["192.168.20.104"]
