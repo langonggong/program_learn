@@ -56,3 +56,10 @@ commit管理
 2.将需要修改的那个的pick改为edit
 3.对commit进行修改 git commit --amend
 4.改回来 git rebase --continue
+
+stash
+git stash drop stash@{${i}}
+git stash save "信息"
+
+git本身
+git remote -v	查看服务器信息
