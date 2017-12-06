@@ -1,0 +1,5 @@
+根据端口号查看进程id
+netstat -tunlp | grep 端口号
+
+根据进程id查看进程信息
+ps -ef | grep 进程id
