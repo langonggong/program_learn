@@ -30,7 +30,7 @@ public class StreamTest {
         forEach(System.out::println);
   }
 
-  //一对多映射关系的
+  //flatMap,一对多映射关系
   @Test
   public void flatMapTest() {
     Stream.of(Arrays.asList(1), Arrays.asList(2, 3), Arrays.asList(4, 5, 6)).
@@ -72,4 +72,5 @@ public class StreamTest {
     Map<Boolean, List<String>> collect2 = Arrays.asList("test", "hello", "world", "java", "tom",
         "C", "javascript").stream().collect(Collectors.partitioningBy(s -> s.contains("java")));
   }
+
 }
