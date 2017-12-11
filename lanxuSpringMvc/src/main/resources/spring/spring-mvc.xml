@@ -72,5 +72,6 @@
          <property name="resolveLazily" value="true"/>
      </bean>-->
 
-    <import resource="classpath:redis/spring-redis.xml"/>
+    <!--<import resource="classpath:redis/spring-redis.xml"/>-->
+    <!--<import resource="classpath:mybatis/mybatis.xml"/>-->
 </beans>

@@ -1,0 +1,47 @@
+参看网页:http://blog.csdn.net/minicto/article/details/73484432
+
+给docker容器分配固定的内网ip
+创建自定义网络，并且指定网段
+docker network create --subnet=192.168.1.0/24 cluster-network
+docker network ls
+
+可以进入容器查看ip设置是否有效
+
+方案1>>
+新建并启动容器，指定网络、ip、用户名、密码、容器名称
+docker run -itd --name mysql-master --net cluster-network --ip 192.168.1.107 -p 3307:3306 mysql /bin/bash
+
+方案2>>
+docker run -itd --name mysql-master  -p 3307:3306 mysql /bin/bash
+
+方案3>>
+docker run -itd --name mysql-master -P mysql bash
+docker run -itd --name mysql-slave1 -P mysql bash
+-P指在本地生成一个随机端口，用来映射mysql的3306端口
+
+进入容器
+docker exec -it mysql-master /bin/sh
+docker exec -it mysql-slave1 /bin/sh
+
+查看mysql的启动状态
+service mysql status
+
+mysql没有启动可以使用
+service mysql start
+
+输入mysql验证mysql是否启动成功
+
+查看有哪些数据库
+show databases;
+
+连接某个数据库
+use mysql;
+
+设置root帐号的密码
+update user set authentication_string = password('123456') where user = 'root';
+
+对root进行授权
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+
+开启telnet服务
+sudo -s launchctl load -w /System/Library/LaunchDaemons/telnet.plist
