@@ -1,0 +1,7 @@
+新建并启动容器，指定容器名称、随机端口,打开服务，开启数据持久化
+docker run -itd --name redis-master -P redis redis-server --appendonly yes
+进入容器
+docker exec -it redis-master /bin/sh
+
+mac远程连接docker里面的redis
+redis-cli -h yourIp -p yourPort

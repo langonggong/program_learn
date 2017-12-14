@@ -7,6 +7,8 @@ docker network ls
 
 可以进入容器查看ip设置是否有效
 
+docker run -itd -P mysql bash 使用随机端口
+
 方案1>>
 新建并启动容器，指定网络、ip、用户名、密码、容器名称
 docker run -itd --name mysql-master --net cluster-network --ip 192.168.1.107 -p 3307:3306 mysql /bin/bash

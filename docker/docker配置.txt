@@ -5,6 +5,8 @@ http://www.cnblogs.com/agang-php/p/6125903.html
 docker pull ubuntu:14.04
 列出镜像
 docker images
+删除镜像
+docker rmi <image id>
 
 容器
 docker start <name/id>
@@ -60,3 +62,7 @@ docker network ls
 创建Docker容器
 docker run -itd --name networkTest1 --net mynetwork --ip 172.18.0.2 centos:latest /bin/bash
 可以进入容器查看ip设置是否有效
+
+rJ*:.2XbkRht
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('123456'); 

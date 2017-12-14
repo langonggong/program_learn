@@ -3,6 +3,7 @@ package com.lanxu.controller;
 import com.alibaba.fastjson.JSON;
 import com.lanxu.pojo.User;
 import com.lanxu.service.UserService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,7 @@ public class TestController {
   public String index() {
     //输出日志文件
     logger.info("the first jsp pages");
+    System.out.println("the first jsp pages");
     return "view";
   }
 

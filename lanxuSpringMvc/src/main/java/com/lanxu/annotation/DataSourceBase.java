@@ -8,9 +8,9 @@ import java.lang.annotation.Target;
 /**
  * @author lanxu
  * @email xu.lan@renren-inc.com
- * @create 2017年12月11 11:34
+ * @create 2017年12月11 18:23
  **/
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface DataSourceAgentSiteBase {
+public @interface DataSourceBase {
 }

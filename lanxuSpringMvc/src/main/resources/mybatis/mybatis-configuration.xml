@@ -34,15 +34,11 @@
         <!-- 是否开启自动驼峰命名规则（camel case）映射，即从经典数据库列名 A_COLUMN 到经典 Java 属性名 aColumn
             的类似映射。 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--打印sql语句-->
+        <setting name="logImpl" value="LOG4J"/>
     </settings>
     <plugins>
         <plugin interceptor="com.lanxu.util.mysql.DaoCacheInterceptor"/>
     </plugins>
 
-
-    <!-- 全局别名设置，在映射文件中只需写别名，而不必写出整个类路径 -->
-    <!--<typeAliases> <typeAlias alias="TestBean" type="com.wotao.taotao.persist.test.dataobject.TestBean"
-        /> </typeAliases> -->
-    <!-- 非注解的sql映射文件配置，如果使用mybatis注解，该mapper无需配置，但是如果mybatis注解中包含@resultMap注解，则mapper必须配置，给resultMap注解使用 -->
-    <!--<mappers> <mapper resource="persist/test/orm/test.xml" /> </mappers> -->
 </configuration>  
