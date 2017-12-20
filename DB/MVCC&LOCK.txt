@@ -1,0 +1,30 @@
+mvcc:http://blog.csdn.net/chosen0ne/article/details/18093187
+
+事务:http://blog.csdn.net/chosen0ne/article/details/10036775
+
+事务隔离级别：http://blog.csdn.net/jiesa/article/details/51317164
+
+Innodb中的事务隔离级别和锁的关系：https://tech.meituan.com/innodb-lock.html
+
+mysql事务和锁InnoDB（精华）：https://www.cnblogs.com/zhaoyl/p/4121010.html
+
+MVCC
+	快照读
+	当前读
+隔离级别
+	Read Uncommited
+	Read Committed (RC)
+	Repeatable Read (RR)
+	Serializable
+InnoDB实现了两种类型的行锁
+	共享锁（S）--读锁
+	排他锁（X）--写锁
+行锁分为三种情形
+	Record lock
+	Gap lock
+	Next-key Lock
+InnoDB还有两个表锁
+	意向共享锁（IS）
+	意向排他锁（IX）
+InnoDB页面锁
+

@@ -33,12 +33,17 @@ public class DaoCacheInterceptor implements Interceptor {
   //添加一个日志器
   private static final Logger logger = LoggerFactory.getLogger(DaoCacheInterceptor.class);
 
+  //拦截方法,在这里处理拦截器的业务逻辑
   @Override
   public Object intercept(Invocation invocation) throws Throwable {
     System.out.println("invocation name: " + invocation.getMethod().getName());
     return invocation.proceed();
   }
 
+  /**
+   * 把目标对象封装成Plugin对象
+   * target就是Executor和StatementHandler
+   */
   @Override
   public Object plugin(Object target) {
     return Plugin.wrap(target, this);

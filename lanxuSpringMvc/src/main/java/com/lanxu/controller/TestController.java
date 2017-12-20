@@ -32,7 +32,6 @@ public class TestController {
   public String index() {
     //输出日志文件
     logger.info("the first jsp pages");
-    System.out.println("the first jsp pages");
     return "view";
   }
 

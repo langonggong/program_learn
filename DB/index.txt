@@ -1,0 +1,11 @@
+索引与优化:https://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html
+
+索引的类型
+	B-Tree索引
+	Hash索引
+	空间(R-Tree)索引
+	全文(Full-text)索引
+
+索引策略
+	聚簇索引(Clustered Indexes)
+	覆盖索引(Covering Indexes)
