@@ -9,3 +9,7 @@
 索引策略
 	聚簇索引(Clustered Indexes)
 	覆盖索引(Covering Indexes)
+
+其他
+	松散索引
+	二级索引
