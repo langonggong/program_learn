@@ -26,8 +26,8 @@ import java.lang.reflect.Method;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"/mybatis-test.xml"})
 public class TestCglib {
-  private final Logger logger = Log4jUtil.getLogger(Log4jUtil.LOG_TEST_FILE, TestCglib
-      .class);
+  private final Logger logger = Log4jUtil.getLogger(Log4jUtil.LOG_TEST_FILE,
+      TestCglib.class);
 
   //动态代理
   @Test

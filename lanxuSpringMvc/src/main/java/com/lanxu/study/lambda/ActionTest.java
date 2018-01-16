@@ -10,12 +10,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * @author lanxu
@@ -98,6 +100,22 @@ public class ActionTest {
       return s.getName().length();
     };
     System.out.println(f.compose(before).andThen(after).apply(name));
+  }
+
+  @Test
+  public void test111() {
+    List<Student> list = new ArrayList<>();
+    Student student1 = new Student("lan");
+    Student student2 = new Student("aaa");
+    Student student3 = new Student("b");
+    Student student4 = new Student("dd");
+    list.add(student1);
+    list.add(student2);
+    list.add(student3);
+    list.add(student4);
+
+    List<Student> preferred = list.stream().filter(s -> s.getName().length() > 2).collect
+        (Collectors.toList());
   }
 
   @Test

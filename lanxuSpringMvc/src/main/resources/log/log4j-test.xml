@@ -14,7 +14,7 @@
         <level value="debug"/>
     </logger>
 
-    <logger name="com.lanxu.study.jvm.cglib">
+    <logger name="com.lanxu">
         <level value="debug"></level>
     </logger>
 
